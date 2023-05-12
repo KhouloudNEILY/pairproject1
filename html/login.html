@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower</title>
+    <link href="/css/login.css" rel="stylesheet">
+
+<body>  
+   <!-- header debut  -->
+  <header>
+   <!-- logo -->
+    <div class="logo">
+        <p><span>Flora</span></p>
+    </div>
+    <!-- nav -->
+    <ul class="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#birthday">Birthday</a></li>
+        <li><a href="#marriage">Marriage</a></li>
+        <li><a href="#occasions">Occasions</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="login.html">Sign In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        
+    </ul>
+    
+    <!-- nav end -->
+    </header>
+
+    <section   id="log">
+        <div class="login">
+            <form name='form-login'   action="Shopping.html">
+        
+                <h1>Sign In</h1>
+        
+                <label for="userName"></label>
+                <input type="email" id="userName" placeholder="Username" required>
+        
+                <label for="userPw"></label>
+                <input type="password" id= "userPw" placeholder="Password" required>
+        
+                <div id="remember">
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                           style="display: inline-block;">
+                    <label>Remember me</label>
+                </div>
+        
+                <a href="shop.html"> <input id= "login_btn" type="submit" value="Login"  onclick="check()"></a>
+                <!-- <button  input id= "login_btn"   value="Login"    onclick="check()"><a href="diary.html">Login</a></button> -->
+            </form>
+        </div>
+        </section>
+
+        <script src="/javascript/login.js"></script>
+        </body>
+        </html>
